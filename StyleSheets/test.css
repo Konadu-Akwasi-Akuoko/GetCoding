@@ -1,0 +1,90 @@
+/* CSS for test.html */
+#main-viewport {
+  position: relative;
+  width: 1830px;
+  height: 850px;
+  max-width: 1830px;
+  max-height: 850px;
+  min-width: 1830px;
+  min-height: 850px;
+  overflow: hidden;
+  background: white;
+}
+
+#header{
+  text-align: center;
+  /* Header animation */
+  color: red;
+  animation-name: header-animation;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+}
+
+@keyframes header-animation {
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  100% {color: green;}
+}
+/* Motorcycle animation */
+#motorcycle {
+  position: absolute;
+  width: 145px;
+  height: 113px;
+  left: 35px;
+  top: 628.25px;
+  transform: rotate(-3.26deg);
+  /* Animation */
+  animation-name: motorcycle-animation;
+  animation-iteration-count: 3;
+  animation-timing-function: linear;
+  animation-duration: 5s;
+}
+
+@keyframes motorcycle-animation {
+  0% {
+    position: absolute;
+    width: 145px;
+    height: 113px;
+    left: 35px;
+    top: 628.25px;
+    transform: rotate(-3.26deg);
+  }
+
+  40% {
+    position: absolute;
+    width: 145px;
+    height: 113px;
+    left: 702px;
+    top: 155.82px;
+    transform: rotate(-41.89deg);
+  }
+
+  60% {
+    position: absolute;
+    width: 145px;
+    height: 113px;
+    left: 1141.49px;
+    top: 305.94px;
+    transform: rotate(-166.89deg);
+  }
+
+  80% {
+    position: absolute;
+    width: 145px;
+    height: 113px;
+    left: 1530.71px;
+    top: 625.19px;
+    transform: rotate(32.62deg);
+  }
+
+  100% {
+    position: absolute;
+    width: 145px;
+    height: 113px;
+    left: 1722.12px;
+    top: 714.1px;
+    transform: rotate(-5.29deg);
+  }
+}

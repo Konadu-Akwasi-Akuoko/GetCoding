@@ -1,14 +1,111 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8" />
-    <title>Get Coding Learn HTML and CSS plus JavaScript</title>
-  </head>
 
-  <body>
-    <p>Are you ready to start learning HTML with GetCoding?</p>
-    <p><a href="https://www.jw.org/en/">Click on this and it will take you to jw.org</a></p>
-    <p>Okay so some people are saying I need to refresh to see the changes, let's try and see.</p>
-    <p>I think so far so good, I haven't see anything</p>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="My first website" />
+  <link rel="stylesheet" href="/StyleSheets/cssStyleSheets.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+  <title>Get Coding Learn HTML and CSS plus JavaScript</title>
+</head>
+
+<body>
+  <div class="container-header">
+    <header>
+      <div class="header-logo">
+        <img src="Images/info+24px-131985192525302678_0.svg" alt="our logo" />
+      </div>
+      <div class="header-text">
+        <h1>Carter Dome</h1>
+      </div>
+      <div class="header-promotion">
+        <p>Free delivery on all orders over $15.</p>
+      </div>
+    </header>
+  </div>
+
+  <div class="content-middle">
+    <div class="paragraph">
+      <p>
+        Carter Dome, or simply The Dome, is a mountain located in Coos County,
+        New Hampshire. The mountain is part of the Carter-Moriah Range of the
+        White Mountains, which runs along the northern east side of Pinkham
+        Notch.
+      </p>
+    </div>
+    <div>
+      <img class="mountain-image" src="https://images8.alphacoders.com/479/thumb-1920-479497.jpg"
+        alt="Mountain in a serene enviroment" />
+    </div>
+    <div class="paragraph">
+      <p>
+        <span>
+          Carter Dome is flanked to the northeast by Mount Hight and to the
+          southwest by Wildcat Mountain (across Carter Notch). The origins of
+          Carter Dome’s name is unknown. Local folklore suggests that it was
+          named after a hunter named Carter, while a neighboring peak is named
+          after his hunting partner, Hight.
+        </span>
+      </p>
+    </div>
+    <div>
+      <p>
+        The mountain is ascended from the west by the Carter Dome Trail and
+        Nineteen Mile Brook Trail, and from the east by the Black Angel Trail.
+        <hr class="hr-line1">
+        <br />
+        Statistics
+      </p>
+    </div>
+    <div class="list-class">
+      <ol>
+        <li>Elevation: 4,832 ft (1,473 m)</li>
+        <li>Prominence: 2,821 ft (860 m)</li>
+        <li>Coordinates: 44°16'02"N 71°10'44"W</li>
+      </ol>
+    </div>
+
+    <div>
+      <p>
+        <a href="StyleSheets/cssStyleSheets.css" download>Download Me!</a>
+      </p>
+    </div>
+    <div>
+      <p>
+        After you finished the download, here is an image you can watch <br />
+        <a href="https://www.dell.com/en-us/shop/gaming-laptops/sr/game-laptops/alienware-laptops"><img
+            class="laptop-image"
+            src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEBUSEhMWFRUWFhUVFRcXFhUVFxcVFRUXFxUVFRUYHSggGBolHRUVITEhJSkrLi4uGB8zODMtNygtLisBCgoKDg0OGxAQGy0lICUtLS0tLS0tLS0tLS0tLS0tLS0rLS8tLS0tLS0tLS0tLS0tLS0vLS0tLS0tLS0tLS0tLf/AABEIAKgBLAMBIgACEQEDEQH/xAAcAAACAwEBAQEAAAAAAAAAAAAAAQIDBAUGBwj/xABCEAABAwIEAwUFBgQDCAMAAAABAAIRAyEEEjFBUWFxBRMigZEyobHR8AYUQlLB4QcjcoJisvEVM2OSosLD0iREU//EABoBAAMBAQEBAAAAAAAAAAAAAAABAgMEBQb/xAAxEQABAwIDBgQGAwEBAAAAAAABAAIRAyExQfAEElFhcYEikaGxEzLB0eHxBSNC0hT/2gAMAwEAAhEDEQA/APi7FqDG5Te/1tqsYTldrXWWjHxktrKeZpdw1jWI1c3hzHDRTqU++8TbuAGcbkNEZgOgErEKroifr5KWFxBZUa8GCwz81TXNkB2Bx+46evKVuKzDAItnx6jmPXAyr34f+X3jTcT3gta4yOHIz7lQ11/j81qwOJ7qrnADmGWuYfxMeCHDkY0OxAKeJpNaYZ4qbjI4jkfKR5roYw3Lcon/AK6cevlhUgt3hlY/cdsed84EK2HgEy02kw4HcD18QkKXZODqVqraNMtzODozuY1vskkFzyALDjrEXhVDwmHezdvI8Y92i6PZ2CBqsyuEHMAHEAwQRI2IvffksjSO9a146X1jZb0m/FeLWkZ3gkDlxWLHYR9J2VzCHbDWYsYI1WZxv9XHNeg+0vZ1OmQ1lbO4GwOYGOROo6wvOPPqntdHccWnDLWrQntTPgVS36g+vEZ6mbWDLz1HOBJCqBUm1DBH5onnH+s+Sg8cNFx5SFyTYQpDWyk+nFtZDSPMT+sKM6eabgZvxKrFEKx4ytH+K8chpPvWdSc6TP1wCik4yVRMmyigJlCzSTSSUkwEJKKZTSSUUBCAkhMBMoASKrAIUmtncDr9XSQFbSplxga63IFuJJsPNCFBok9VMQP21/ZQIWujQlpcSA3yLjeIA8x+6tjXOMNCoc9aMBUESYaPLU+am2mBrc+4dTv5K7EZWktBsInLuYuC46wbTpayyufPIcAtnNbSMG59EwQbjPWGuim9/wBfIbLd2Xh6ZJfXJyNvkaYfUOzQTZo4vOg4mAeaHAdVFzyVmXzd3lr9805hdbtntZ1YiYDWDLTpsBbSpM/Kwe8nUm5JK5DnStVPs2u72aNR3Rjz8ApYjsuvTbmqUqjG6S+m5ok6CXBc79tpud8PeA4Nke2JSLHYwsKEIVAErNSBUpVacq2uKqVJBQlKveBCRU2u4iVOhXLbA+RAIPUFVFRm8oFRzDYqTddQvzNLIykXifDBM76DQTPDis3cuyzsLyDJb+1tVsqdq4g4cUDVLqNoaYIABkNBPiaJExMLEC5hDmktdEgtJaRqNR9XXU573XcMseI52v8ArMStN0QRH65qx4c7xOII8IPiBgHS0zCprgFx012ED/RbcR2jnphha1xkuLiIeDNxIO+/Hrc88zESs6j2nXp09vQFSGxeeOvyoNZM8tvlxRmTyqx8FukOBvzHT61XOAQVjKrAJ+uu3krzQdYFpBgOEyJa4S0idjIg7yEUDcOm4M6cIhTqPc4NBM5BDdCA2S7KCNRLnFbimYkZ29rq2kSqquGLReRdwIIgy0gG21zHkVQrsRXfUcXvcXOOpOp6qpYEJtlJJSSJUkIOKimEIQ1CRQEISCJQpJJoTTKUK7DsBMExzib8+S6WH7PFQgUqdR0NhxHj8fGA2zeR9VoKZLS5WGExrz4d1yIWmnSe5vBouSbD1Oq9FV7CY1mfvAGgwXeBxBFyIa+2o14rzeJeCdSRtPy2QNwDFb7VsVWiA6WwcDIPlHvP1it0bX+tlY2uA0gNlx1cbwODRsed+UXnOSoqS8xay5LBMlAKSnTfBmAetx6LNElMAfinoPmdPetFLH1GH+U40tvAS0kc3AyfWFVWxOYRlY3+loB9VTCl1Nr7PuOBuPJMOOS11cZWf7dSo7+pzj8SsphRSWjdxghjQNdggknFMlRlSIUUiSUoU0k0IQgHkpKIKZVJJpNE2QhphCLLZVpAnLYEaBpEZQJud3HifhEU1nmTPIcuQVQfCs72RBuM2Y7T8t1u1w3SNdE7CwsOCVV08NPoniUmH1U8oykyNYy7wdCOI/ZQaLoZc2UyMlexhddM4cTvlnzj4aLr9n4F1PEMbVDqRa9kh7Cbb20cDcc17+l2FhLk02ZSTldSiw1HeU2nKbEezB816A2bBz8NauuLbtqqbH4n0yRxF4OQPCbxPzRYGDHzGrSs6NGiAeIcZGgE768eSjTr0wyoQ0hxy5JMhoJ8W2u3Qndeordltp1HNqAZSx8CRGemC57SSZAls36AkrzePw4zvj2AX5LiQwVcoJNpOnqq2mj8MhzeB7fpdlLaKZgtzB6XkYzlaJkz1XOdNukfXvPmolTaLHpbrNlBeW+BgrCioqSiVkUFCFJIoySSQhEKVUoCsawxMW0naTt7iogLVVAADQZgSYv4nQSB0EDqCjAqmiVU0wt2FaCJqPysF+bjwpt3PPQb7A4mVAAbXtBO3G25NlWXIfvPETC0ZUDLxPtryWzG40vAAGWm32G/9xO7lhJQShPda2zcNaxPVTWrvrO3nmTqyihCSk2WKaJSSSTVoJOn6KtCaaEkJqTGymBJgIAVaIVpA+rlKUFpGKcJISQhEITQhMFSpgWPlaNeN0gLa/FRRKYuhNCkWkRO4kdJI+IKTW/XzVAJFTaSN/ropRIJ52HzPktYLWkeFpygguBcGvkWJGs+losLzEwZi+8xPAFs6jTX/VdgokNnHl6d78Lc+DDZKuPatWo1rHuc8NECTfKNBOpjbgvSdmfaU08PUbkBqEiXkm+UQ1xbpnjV1pgSCbjxwdJvr8VJlYtiBeZn0P7rpo7UGGXT+r3/ADIRVG/d1zznRHou3i+2Hvdn0kAOygwQ2IGbYeBpjquDXqgm0jXhx0ECwVrq0Cx/qESJkEa9PcsxaOO97fUrHaq5qFQxgY3daLZa4cOAsqiVYFEhSXBEFaBRKEimFJTlIhIKTQpQiElAKSSkEKkgEEpShOUimmwAm5gcbn4JQhwjeeiZaYnLXdCvr0qYHhqZjuMhb6ErMmgNKjBGKSbWyY+Kk2mTt6296MhmLeRB+BQ0ib3Runh6LT/s2pGyzVaJaYIhbMLi3sERI2nbz4JVcS95uY5NEkfXVenXH8caQdTLg7hE/YeR7cNNwEWxWUUDrEDibfFENGrp6D9SrMg315mfc24TBGwJ6AN95krgFRv+GT1k+0DsZ5pfDA+Yxrh9lWP8LPPX9kzTJ1I6TPubKb6nT/MffKrdU5k/D0Ul1UiCYHCw9BZTLBxJ8gp90BqT7m/Ez7kiW8B6u+Sqz8kZyo+G3N3klv8AAD3TQoBNCN5CE0kKUKQH1dRVjAmEircNhi9waBJOgkAnkJ34DddT/ZIGoOhMSIBiQ2QZPWyqwBaCJHvgFes7PwbqwADTlB9omRH4ssXdsI2XfszIuWz1Nu9s1yVa7qJ3yBujGbD7dBczbNeYaCXZKTS5xGT2SWgH8rRJd/U4+Wkdh32MrClne3xahsgEjmTYeq7lD7pg3Z6jzUeCYbTDDJ2DzeI1ibLlfaD7a4isHOp0hTZOUv8AE+HRIGcQ0Pi+6b2lgkux1acua8921bZtDwKDfDiS4Y8wCQY5tb3XksZhXU3lrwA4cCCqGvBsYF5m4sNgAOXBJ5nxEzJ8+JKjUpluoIkAiREgiQRyK5C8r2gwgQTrohzvr66qCanWY5hLXNLXbhwIIkTcG/NQSrVQUlrwnZuIqNzU6NV4mMzKb3C2wLRCoq2MREGCDrIsQfMFIGUBVQpZVZUploBLSA4S0kEBwkiQTqJB9CnVYWktcC0ixaQQ4eR0VgBNVhqllG/zVjGVG5S0PGacpAcMwBh2Uj2uCnVDxnZE92fEcs5Ydlu6JAkxfiN0/CFO9eFnazyV/wB0OzmH+9o/6XEH3KpkEc1qqYZzWtdByvBIJBAOVxaQCRDotMTE8V0NpNImNeSog5HXmFicw8OX0VFaa1Yua1ugaINzBOZxBjjDgPJWYjsqvTbmfRqsbYZnU3tEnQSRC5304NkgVjTbCs+7x7RA6mT6D9VrxHZlam0ufQrNaNXPpvY0SYEkjjG6iIxMLUtj5vVYYTmPoKVCm+o9tNglz3BrWjdzjDR5khffOyf4IYJtADE1KtSsW+JzHBjWui/dtymQOLpmNBorFXcwJnqszC+CMdmMBonkP0W1tGB4jB5H9d/7fVep+2v2MPZ+J7kVWd24Z6T3y1zmzBD4EZgRFraGBMLzz8LTGtdn9oc74L1aWz/FAqPh052A74E9V2UaJazfER1AHqVkbTzGAJPQE/Ba+0e7a0teG94cvhZ3gDI1mXFsncAHlCzVe0Moy0fCN3/iPn+EdFzVhtD6DLNAJ9B04rJ7xlc9THlInqRHAEGUzU5KBciEoXAXPcuaISlEqUJQFnLk4SlJSgfQ/dO3E+g+aUnNJIJJICEJpwkpISTATDlCU0xZKFax69C/t+o2l3VJ2VseJxcHVHbHM47WsAvOtsotddddOr8MKXbNSeQXtkjDWuS0HFOAN9dSYJ1m3BfUKTsI3CjsEvcK9Slmc6KQoff3tbXYXVs2a2VlCzYuvlL6h02VawqOLytIglTNrRB3HPde1+1PYGIrMw+Ipsa6k3AYTM/vaQju6Dc4Ic8G3ReHUoCk3hUBKnVs3qJPvj3QV6P+J1QO7VxBaQRNKCDI/wBxT3C80TKVNskN4mPVScZT+YwF9O7BZiX9kYUYYVnFrsYHCjjaeEyuc+n3bqocJqCzoAje918zrhwe4P8AaDnBxJk5gfFJvN91DuzEkeu/T62SUhSQQve4zF0a2EwODrvY1rsHmo1TH8jEHFYkfzHC4pPAY186Qx34SDx/4hw7tbGFpkd64yCDMAacV5vlEc+PVIGNCqaLpDmvf/Y3E0Tgu8rFpd2bWdiqTXGO8FamQyk3j/8AIpUCRpD3LT2/UFTBHEYeH1u1KlJ9am0CWHDMP3iQLjPiHd4DwaF85LryLHl+yvZjHgEAi4iYE+us21TBAMla02097xkxy19FpwXZ76lVlIWfUe1jZNszjlEnYSbnkvpP2jxGCxWFq4HDOcX9ntz0S9lNrHMoDu8SGVGuJcal6sECS1fKKToMxO9xPxWmvjsx0gcA6QPI2W/xmuAkRHr6oaxnzb0cBj6xGs1txdIuAkBsjwzAttBsXehX0D7Q9qU31+1W06uIfVDcQBSqYhpwz6bnltV9Knlu6mwh7Wk/hJHswfljr6EdDbprb0VOiVQseLD1n3EiEVHvc6X+f3yPaFN1IxZfTf4p4fFl2JfFfuO/Li841lSg6mX/AMsMwguyCWal2kwNvmzK3LyMOHvCtbiqJEOohp/NTe5p8w/MPSFJa1xmfPULKo/diGk9CPrurd9jazafaODe/wBluJoON40qNIJPAGD5L9KfZ37dYXGYatX8VH7tP3mnVGV9LKCSXATI8Lo3lpETZfldzWn2XeThB9RY+5fVvsx/EXANwdRnaGE7zEFjWPe1jXfe2MINPvnSJcIAJdMxO8KKlN2Ptf2RIOC5n8XvtXS7RbhKtGm9gH3kDPlDn081JrakNJhpc2q0Tuxy8DgsI6q7KyNC4kkANaNXOJ0AWrtrtqpisQ+u6GzAYxoDWUqbbMpU2izWtAAH7lZmY543P/QPQwqpi0LamKf+iR2n6qNamxtg8v5gZW9RmuR1AUBScQSGmBqQCQOpW+l2s3LlfSaef8trvXu02YigDIFemf8AC9p/QLUCmbg+a6XbNTcJp1W9wW/Qj1XK1Wqi+qBakCOdBjvflla62Naf/sYjzk/+RYqxGz3Hq2P+4rN5Bx+n3XO7ZXgSS3s4H8p4h7yIdSa3mKeU+4LGWHgfRTJSUeBZbjlXCFO6UolqW6VBNJChJNEJKUoBCITamVAFCcoAhEoTQkmkhCE5QmpKITRKFZRN9J1tzi3mFAmDIQkShAKs74kyb9bgxoI4bQoB0XQzUddToh2vJBJxzTubqBSCZQApJShCtYQdbcD+hH6qoaf6oCoJTCeZGZRQknKmlKiFYG7j0+Sku4pTCSYUEEpyq5qSAVGUwU94p2zVrXLSMp015tjhEFtvd6ys1OpxAI4fvst9KiHf7t2b/h1PCfJ/su9x5K//AElvzNB1y+q6qGz/ABvlN+GfYZ9pPJZnUlE0iulXpaNeHU3DRrmj/NEuHVZagtf1/D0tuuneoPHPrrWKVTZqtMneGGr4EdwshCrJWl7CDBBaeBka3GyreOSxdSGIWG9OaqlCCEsqyhTdKU5ShSRCcqpEpIUEqE0ISQhNNIJoBQgIQkmhNCEIQmFIKKkEwkVKNCpOFp46cr7/AFuo1I23kxrFzY+i0vy90DvmvrO8yDvZunFMrVjZkclkj65pAIC0OEAaSb8bWt8URKkCQTwWY8EO1Vjhv69UkFqUQq003BRSCRVrxN469f3uqlfRHDz5haq/ZdVtNtUsPdumHxLZBggkaGdiuobO+o3eaFmXNbAJxsucpMJBspCmUmtn61WDqZGIVJuM/VwqyFawBIt4a8Pks3MIEomFWIUiPNQJUqbiNFEFO+SkrKebUH0VTj08k6Zvv5a+SdwtWm69J2R2s4xSeRGjQYyn/CWm3w81d2lgKRJlpov0jVs8CTAB5QzzXLwgpuMVCDPsuu2D/wAQbdfeuw/FVKY7qqxzmgQ1pyvflH5bAlvm8DS11JrvEQ0OGYNj2Mgj0Fjjafp9lqGtRDa53m4AxJByB4HMEHDivP4vBvZrcDcXHLp5rGF2H1N6Jkbtu1zf6Z0WSKbv8J4/+zNvJdDfEfDY8Dj2OfovF2jZ2td4D9Qeh++GZWUutBA/VQC34ns2pTAL2ksPsuF2Ho8WVHdlhBIjcSJB9bOHJNzXZ/n7HtfkuSLb2XH9KkqEBXPp7iNTYTI9dvM6KtSLG6ThKzoTSWaxQhCEJpyiUk0ShEoQkkhNMJJpoTU2ajZQTAVJKbNzpb6C2MP8ktyjwkku3uWj3WH9yyOtYafvayupvgOjcX6HX35fRUIzW9EkE8wVREmBygAan5p09J9OuqiNfVWU3QDfWxHoQeHFEZrKYKkKYLZBObe0AToJm89FURpHBD2EXPNToEnSJEm8abxO6TBJVkiwIjXuoPifq3JItsnEqbG5rAXmwi/RW1kugKDhdW02FuWoyfaMHm2D0nl04r2eA7fplpY8d3SqmWPogMdRrkAONRghrmAQ0hoGZsTLtPMUK7nU8syIkCAdPDM6tidRwFoVWFqgEtdZts25v7LgNyJ9CV7Wx1fgEXsbnymdTMYGy4Nr2GjtI3agmMCLG/nflcccwuvjcD3j3NIZ3t3NdSAyVWzbKGADMRcEATEEZteA6RoY4Hj8vrz999jKbu8FCrS72i/xsIBOQgtb39F4NokA5TItplXE+22BZTxdUU2kNzElpiJJJ8MbXkaRMbX9Tbdkp1QdwXjeMQZHLMRPDC1wYPHse2TtB2YxAbIIIIiYwGHTIzBiI81UDYB0duRcHgY2+rKgq8gfvv5jfqqSPT60XytagWcxrXD1XsAQhpB9r1+arIhSIUmOIXIRGCoCcFBzSNQhMvMot0+H7JXSBSXa7N7bcxvdVGirS/KTleyRE06gu0+7iuKQhMEgghbU6zqZlp68DyIwI6+69FVqSz+W81aebOWn+XWa6IkgWda2YTpssApCofCZd0h3/L+L+2ei5odBkWKudVze1rx+Y3VbxLd2fTXv9V0u2lrzO7HG9ieINyO5dyIy7PZnaVXDu9ssBMFwGam6LRUpGzvSRwXbrdoYd7IqUm082jqTQcO4i092b0jp7JI4tlefwnaT2QHRWaRBDwSTyDgc3QGRyXS7OZRffC1hQqH2qFdw7t/DJWs0H+rIb2VN200B/c2W8RePxxkAcShmz0Xv36bjTfxFiRazv8vHN1wLguMLl1qDZiI/K4O8B5guOnU/JZzQd+X3R+q7eOwBBLO7dRrami+AHc2EjLV5EQf6tVxX1i0xLmxtmcI8tl3tqbNWbvNJjiL679BIulWpVKTvELHAiwPbLplmAuUhCF5i4kJoQhJCEIQhCEkBCEKSSYVJpqbRJjjZRCkAqhAU3EaWsSBYXHEnfzQOPKD5/vCqGqtqNsESrbMKsH9UORCtqaZbGJgjcGPrzKUlAbYzrQlXgFzMh1YCR01Pu/yhZGhacNVyvB02P9LmZXe4lV5AANTBM8LHY9FR8LpGr/juStD4mNJxwPYCPqOjQr8W0Z/A2ARLRJM8L7nbqFJx/LHiAB2uDeDa+mvHkqZJZH5L/wBpgH0Mf8y04enaNnQWzpnGg98Ec12m/jA566LOize/r7A88s88FUyoW+JttCNDfQzPG9tIV+NIe1r2MykNBeBcTmIzDcCw136qhj4ERDg6ZgHUXBHlPrxW/D1HBz6rAHACXNBLfDU9qGiJaDsPzDy7dnpNe0gzBHXQEGRlbHLKo7xScda5K37Nds16DpovAIObK8+BxJAMzoYtMi031XpM1HHsLGAsxTJyio4k1m6mk97vEaokwd42vl8di6NJ1QmlZrhmDTctO7Sd7+4jeQNGEY+k5jy14yvaAfE0OLYflbUGhjhcWXp/xz6zRBuBYEcsuBtlwNvFh5m17Ixzvis8NTI8TjBEwQcDJPWFixuDcx8QQZgAiCCDBBGxWFwXpO1O1BUdmB7yb5jDapk+zVIgGoPzDX4cXENky365Lj/kNmon+ykccR9uI9rd/Qovc+mHOEHhe3nCyOBBvrwKQWhzw4ZTqLA7xwPEfXJUZYXz9SnaRgtWGDdQKkXch9dEOSAWJumRdJzlJt0BxFlFWA3X3upTKFIPPUcD9WQY2ty+Se4D8p17FCGPI0Ws1A7WzuPHrxWKUJNcRrX4yVtfGK7mC7drUm90SKlL/wDKqBUp/wBrXewebYPNd2p9p8NUDS/AszBoacmctMbiX26LxTamxuPrROQuV+yUXO3gIPIlpPUtInuu2jttSl8p81QkhC3XnoQhCEITQhCEICEIQhMJoVJppIQmhSlSJskhCsKLVpbhyRPp14eiSEcAt9lpCoSDrJW0m0wXZzmhhDcswahaA2+wBJdzyxuq6wg6WcAR5iSPWfRJCbsVjS+Q8oKswFfI8EjMLgj8wILS2dpBidtdlPEYaPEwl1MmAYggn8Lx+F2vWJEhCF1bMZbu9/ZZPEGe3qUPJkE7xM8YkHznN5qeGLtjyjg6dBPGT70kLt2dxY8Qc484Osl0vH9hGuC6WFpi7naPaQbjwvBgOgXEuZBtvKxfeXO8NyBYAzY8CNtShC94ndrMa2wcN49TjHeT1KwrbO1rgeIGgs1QXvafT60VRn63/dCF4bzL3Dn7wfO6TrYKtwlIO4/XzQhcD/CN4KQpVKUCRcfDqq3UzEjTTp1Qhc+0tDXNLbSAUg4x0MKEoQhZK0BBCaFTbhJJNCFCEkIQmhf/2Q=="
+            alt="new laptop" />
+        </a>
+      </p>
+    </div>
+  </div>
+
+  <div>
+    <footer class="container-footer">
+      <div class="footer-about-us">
+        <h2>About Us</h2>
+        <ul class="about-us-list1">
+          <li>Who are we?</li>
+          <li>What we do?</li>
+          <li>What do you do?</li>
+          <li>How can we help?</li>
+        </ul>
+      </div>
+      <div class="footer-about-us">
+        <h2>About Us</h2>
+        <ul class="about-us-list2">
+          <li>Who are we?</li>
+          <li>What we do?</li>
+          <li>What do you do?</li>
+          <li>How can we help?</li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+</body>
+
 </html>
