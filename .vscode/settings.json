@@ -29,5 +29,6 @@
     "comments": true,
     "strings": true,
     "other": true
-  }
+  },
+  "liveServer.settings.port": 5501
 }
